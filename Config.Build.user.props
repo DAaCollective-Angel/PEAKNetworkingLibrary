@@ -1,0 +1,12 @@
+<Project>
+
+  <PropertyGroup>
+    <!-- Set if the default steam game install directory doesn't work. -->
+    <!-- <PeakGameRootDir></PeakGameRootDir> -->
+    <PeakGameRootDir>E:\SteamLibrary\steamapps\common\PEAK</PeakGameRootDir>
+    <!-- Set if your BepInEx/plugins/ directory isn't in the game files. -->
+    <!-- <PeakPluginsDir></PeakPluginsDir> -->
+    <PeakPluginsDir></PeakPluginsDir>
+  </PropertyGroup>
+
+</Project>

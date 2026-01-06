@@ -1,0 +1,30 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+    <!-- BepInEx Properties -->
+    <PropertyGroup>
+        <AssemblyName>off_grid.NetworkingLibrary</AssemblyName>
+        <Product>NetworkingLibrary</Product>
+        <Version>1.0.7</Version>
+    </PropertyGroup>
+
+    <!-- Project Properties -->
+    <PropertyGroup>
+        <TargetFramework>netstandard2.1</TargetFramework>
+        <RootNamespace>NetworkingLibrary</RootNamespace>
+        <AllowUnsafeBlocks>true</AllowUnsafeBlocks>
+        <LangVersion>latest</LangVersion>
+    </PropertyGroup>
+
+	<PropertyGroup>
+		<PackageId>PEAKNetworkingLibrary</PackageId>
+		<Version>1.0.7</Version>
+		<Authors>@off_grid [518035931081474075]</Authors>
+		<Company>DAa</Company>
+		<Description>Networking library for mods using Steam instead of PUN.</Description>
+		<PackageProjectUrl></PackageProjectUrl>
+		<RepositoryUrl></RepositoryUrl>
+		<RepositoryType></RepositoryType>
+		<PackageLicenseExpression>MIT</PackageLicenseExpression>
+		<PackageTags>BepInEx;PEAK;Networking;Library</PackageTags>
+		<GeneratePackageOnBuild>true</GeneratePackageOnBuild>
+	</PropertyGroup>
+</Project>
